@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+acidify-ME/membrane_lipid_constraint.py
+acidify-ME/membrane_protein_activity.py
+acidify-ME/periplasmic_proteome.py
+acidify-ME/proton_influx.py
+acidify_ME.egg-info/PKG-INFO
+acidify_ME.egg-info/SOURCES.txt
+acidify_ME.egg-info/dependency_links.txt
+acidify_ME.egg-info/top_level.txt
