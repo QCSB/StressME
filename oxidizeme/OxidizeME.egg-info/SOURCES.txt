@@ -1,0 +1,11 @@
+README.md
+setup.py
+OxidizeME.egg-info/PKG-INFO
+OxidizeME.egg-info/SOURCES.txt
+OxidizeME.egg-info/dependency_links.txt
+OxidizeME.egg-info/top_level.txt
+oxidizeme/__init__.py
+oxidizeme/make_oxidizeme.py
+oxidizeme/model.py
+oxidizeme/ros.py
+oxidizeme/stresstools.py
