@@ -26,9 +26,9 @@ Accessories		Version			Installation
 
 ## Simulations on Linux clusters by slurm
 
-salloc --time=2:0:0 --ntasks=1 --cpus-per-task=1 --mem-per-cpu=8G --account=<your_account> python StressME_wildtype.py 42 5.0 10
+salloc --time=2:0:0 --ntasks=1 --cpus-per-task=1 --mem-per-cpu=8G --account=<your_account> python StressME_wildtype.py 42 5.0 10, 
 or: 
-sbatch --mem=8G --account=<your_account> --time=2:00:00 --output StressME_wildtype StressME_wildtype.sh
+sbatch --mem=8G --account=<your_account> --time=2:00:00 --output StressME_wildtype StressME_wildtype.sh, 
 where StressME_wildtype.sh is coded as: 
 #!/bin/bash
 #SBATCH --time=2:00:00
