@@ -29,8 +29,8 @@ Accessories		Version			Installation
 (1) FoldME_Ali_keff.zip (modified FoldME with 10 more genes and 10 more proteins added; wild type Keffs are set up; decompression of the zip file is required before use.  
 (2) StressME_heatevolved_keff.ipynb (Jupiter simulations for heat-evolved strain)  
 (3) StressME_heatevolved_keff.py  (Regular python simulations for heat-evolved strain)  
-(4) StressME_wildtype_keff.ipynb  (Jupiter simulations for wild-type strain) 
-(5) StressME_wildtype_keff.py  (Regular python simulations for wild-type strain)  
+(4) StressME_wildtype_keff.ipynb  (Jupiter simulations for wild-type strain)  
+(5) StressME_wildtype_keff.py  (Regular python simulations for wild-type strain)   
 (6) basis.npy  (warm-start from saved basis)  
 
 ## Simulations on Linux clusters by slurm
