@@ -6,21 +6,21 @@ virtualenv -p python MePython363
 source MePython363/bin/activate
 ### install dependencies
 Accessories		Version			Installation
-(a)	cython			0.28.2				pip
-(b)	sympy			1.1.1				pip
-(c)	numpy			1.14.3				pip
-(d)	scipy			1.1.0				pip
-(e)	pytest			3.5.1				pip
-(f)	pandas			0.22.0				pip
-(g)	cycler			0.11.0				pip
-(h)	matplotlib		2.2.2				pip
-(i)	biopython		1.76				pip
-(j)	qMINOS* 		5.6 				https://github.com/SBRG/solvemepy
-(k)	cobrame		StressME 1.1			https://github.com/QCSB/StressME	
-[l] ecolime			StressME 1.1 			https://github.com/QCSB/StressME
-[m] oxidizeme		StressME 1.1			https://github.com/QCSB/StressME
-[n] acidifyme		StressME 1.1			https://github.com/QCSB/StressME
-[o] meuser 		StressME 1.1	 		https://github.com/QCSB/StressME
+(a)	cython			0.28.2				pip  
+(b)	sympy			1.1.1				pip  
+(c)	numpy			1.14.3				pip  
+(d)	scipy			1.1.0				pip  
+(e)	pytest			3.5.1				pip  
+(f)	pandas			0.22.0				pip  
+(g)	cycler			0.11.0				pip  
+(h)	matplotlib		2.2.2				pip  
+(i)	biopython		1.76				pip  
+(j)	qMINOS* 		5.6 				https://github.com/SBRG/solvemepy  
+(k)	cobrame		StressME 1.1			https://github.com/QCSB/StressME  	
+[l] ecolime			StressME 1.1 			https://github.com/QCSB/StressME  
+[m] oxidizeme		StressME 1.1			https://github.com/QCSB/StressME  
+[n] acidifyme		StressME 1.1			https://github.com/QCSB/StressME  
+[o] meuser 		StressME 1.1	 		https://github.com/QCSB/StressME  
 
 *See https://github.com/SBRG/solvemepy for qMINOS installation
 
