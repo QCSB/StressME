@@ -21,20 +21,29 @@ Accessories		Version			Installation
 [l] ecolime			StressME 1.1 			https://github.com/QCSB/StressME  
 [m] oxidizeme		StressME 1.1			https://github.com/QCSB/StressME  
 [n] acidifyme		StressME 1.1			https://github.com/QCSB/StressME  
-[o] meuser 		StressME 1.1	 		https://github.com/QCSB/StressME  
+[o] meuser** 		StressME 1.1	 		https://github.com/QCSB/StressME  
 
-*See https://github.com/SBRG/solvemepy for qMINOS installation
+*See https://github.com/SBRG/solvemepy for qMINOS installation  
+** meuser includes the following example scripts for simulations:  
+
+(1) FoldME_Ali_keff.zip (modified FoldME with 10 more genes and 10 more proteins added; wild type Keffs are set up; decompression of the zip file is required before use.  
+(2) StressME_heatevolved_keff.ipynb (Jupiter simulations for heat-evolved strain)  
+(3) StressME_heatevolved_keff.py  (Regular python simulations for heat-evolved strain)  
+(4) StressME_wildtype_keff.ipynb  (Jupiter simulations for wild-type strain) 
+(5) StressME_wildtype_keff.py  (Regular python simulations for wild-type strain)  
+(6) basis.npy  (warm-start from saved basis)  
 
 ## Simulations on Linux clusters by slurm
 
-salloc --time=2:0:0 --ntasks=1 --cpus-per-task=1 --mem-per-cpu=8G --account=<your_account> python StressME_wildtype.py 42 5.0 10,   
+salloc --time=2:0:0 --ntasks=1 --cpus-per-task=1 --mem-per-cpu=8G --account=<your_account> python StressME_wildtype_keff.py 42 5.0 10    
 or:  
-sbatch --mem=8G --account=<your_account> --time=2:00:00 --output StressME_wildtype StressME_wildtype.sh,   
+sbatch --mem=8G --account=<your_account> --time=2:00:00 --output StressME_wildtype StressME_wildtype.sh,     
+
 where StressME_wildtype.sh is coded as:   
 #!/bin/bash  
 #SBATCH --time=2:00:00  
 #SBATCH --account=<your_account>  
-python StressME_wildtype.py 42 5.0 10  
+python StressME_wildtype_keff.py 42 5.0 10  
 
 Here “42 5.0 10” refers to the triple stress conditions at temperature 42 ℃, pH 5.0 and ROS 10X of the basal level. 
 
