@@ -2,8 +2,8 @@
 ## Installation
 ### To set up virtual environment for python 3.6
 
-virtualenv -p python MePython363 
-source MePython363/bin/activate
+virtualenv -p python MePython363  
+source MePython363/bin/activate  
 ### install dependencies
 Accessories		Version			Installation  
 
