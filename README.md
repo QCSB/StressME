@@ -5,7 +5,7 @@
 virtualenv -p python MePython363 
 source MePython363/bin/activate
 ### install dependencies
-Accessories		Version			Installation
+Accessories		Version			Installation  
 (a)	cython			0.28.2				pip  
 (b)	sympy			1.1.1				pip  
 (c)	numpy			1.14.3				pip  
