@@ -17,7 +17,7 @@ Accessories		Version			Installation
 (h)	matplotlib		2.2.2				pip  
 (i)	biopython		1.76				pip  
 (j)	qMINOS* 		5.6 				https://github.com/SBRG/solvemepy  
-(k)	cobrame		StressME 1.1			https://github.com/QCSB/StressME  	
+(k)	cobrame		StressME 1.1			https://github.com/QCSB/StressME    	
 [l] ecolime			StressME 1.1 			https://github.com/QCSB/StressME  
 [m] oxidizeme		StressME 1.1			https://github.com/QCSB/StressME  
 [n] acidifyme		StressME 1.1			https://github.com/QCSB/StressME  
