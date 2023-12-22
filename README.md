@@ -76,7 +76,7 @@ docker pull queensysbio/stressme:v1.1.
 (f)	Type “python StressME_wildtype.py 42 5.0 10” or “python StressME_heatevolved.py 42 5.0 10” to run simulations for the wild type or the heat evolved strains. Here “42 5.0 10” refers to the triple stress conditions at temperature 42 ℃, pH 5.0 and ROS 10X of the basal level.  
 (g)	After simulations are done, three csv files (TripleStressME_proteome.csv, TripleStressME_phenotypes.csv, and TripleStressME_fluxes.csv) are found in the working directory /home/meuser, representing the protein mass fractions, metabolic fluxes and phenotypes under the test stress conditions. Type “cp *.csv /mount_point/ StressME_wild_simulations” or “cp *.csv /mount_point/ StressME_heat_simulations” to export results to the corresponding host directories.  
 (h)	Use “CTRL+D” to exit Docker StressME container to go back to the host directory.   
-(i)	Type “explorer.exe .” to open File Explorer to view (e.g. EXCEL) and process (e.g., R for Rstudio or Matlab) the csv data.   
+(i)	Type “explorer.exe .” to open File Explorer to view (e.g. EXCEL) csv data.   
 
 ### Simulations on Jupiter notebook
 
