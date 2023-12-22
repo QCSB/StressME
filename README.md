@@ -53,7 +53,7 @@ Docker allows ME-model users to run StressME locally without going through the c
 
 The Docker image of StressME can be found on Docker Hub (queensysbio/stressme:v1.1). This build was developed from the modified version of COBRAme and EcoliME kernel to integrate FoldME and AcidifyME with OxidizeME. This build also includes qMINOS solver that users can use to solve StressME using solvemepy.  
 
-The installed COBRAme (StressME version), ECOLIme (StressME version), AcidifyME, OxidizeME and solvemepy packages can be found in /source/ after a new container has been created from the image of StressME. The working directory is /home/meuser, where ME-model users can run simulations and export output from the StressME container to the host. 
+The installed COBRAme (StressME version), ECOLIme (StressME version), AcidifyME, OxidizeME and solvemepy packages can be found in /source/ after a new container has been created from the image of StressME. The working directory is /home/meuser, where ME-model users can run simulations and export output from the StressME container to the host. See scripts in https://github.com/QCSB/StressME/tree/main/meuser
 
 ## Installation on Windows Subsystem for Linux (WSL2)
 
