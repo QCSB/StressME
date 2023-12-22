@@ -136,6 +136,17 @@ stress.force_o2s_from_pq()
 for r in me.reactions.query('PQ2RED'):
     print(r.id, '\t', r.lower_bound)
     
+
+#################################
+# test scenario
+#################################
+# DXPRIi keff is stable between 40 °C and 50 °C
+# based on "The maximum activity was observed at 40–60 °C ... 
+# The purified enzyme was not heat stable above 50 °C ..."
+# J Biol Chem. 2000;275(26):19928-32
+# rxn = me.reactions.get_by_id('DXPRIi_FWD_DXPREDISOM-CPLX_mod_cobalt2')
+# rxn.keff=0.01
+# rxn.update()  
 #################################
 # warm-start from saved basis
 #################################
